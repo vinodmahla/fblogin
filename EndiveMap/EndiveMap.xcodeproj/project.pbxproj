@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D813D21C0079DF0020487E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D813D11C0079DF0020487E /* main.m */; };
+		26D813D51C0079DF0020487E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D813D41C0079DF0020487E /* AppDelegate.m */; };
+		26D813D81C0079DF0020487E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D813D71C0079DF0020487E /* ViewController.m */; };
+		26D813DB1C0079DF0020487E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D813D91C0079DF0020487E /* Main.storyboard */; };
+		26D813DD1C0079DF0020487E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D813DC1C0079DF0020487E /* Assets.xcassets */; };
+		26D813E01C0079DF0020487E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D813DE1C0079DF0020487E /* LaunchScreen.storyboard */; };
+		26D813EB1C0079DF0020487E /* EndiveMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D813EA1C0079DF0020487E /* EndiveMapTests.m */; };
+		26D813F61C0079DF0020487E /* EndiveMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D813F51C0079DF0020487E /* EndiveMapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D813E71C0079DF0020487E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D813C51C0079DF0020487E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D813CC1C0079DF0020487E;
+			remoteInfo = EndiveMap;
+		};
+		26D813F21C0079DF0020487E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D813C51C0079DF0020487E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D813CC1C0079DF0020487E;
+			remoteInfo = EndiveMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D813CD1C0079DF0020487E /* EndiveMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndiveMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D813D11C0079DF0020487E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26D813D31C0079DF0020487E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26D813D41C0079DF0020487E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26D813D61C0079DF0020487E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26D813D71C0079DF0020487E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26D813DA1C0079DF0020487E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D813DC1C0079DF0020487E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D813DF1C0079DF0020487E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26D813E11C0079DF0020487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D813E61C0079DF0020487E /* EndiveMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndiveMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D813EA1C0079DF0020487E /* EndiveMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndiveMapTests.m; sourceTree = "<group>"; };
+		26D813EC1C0079DF0020487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D813F11C0079DF0020487E /* EndiveMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndiveMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D813F51C0079DF0020487E /* EndiveMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndiveMapUITests.m; sourceTree = "<group>"; };
+		26D813F71C0079DF0020487E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D813CA1C0079DF0020487E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813E31C0079DF0020487E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813EE1C0079DF0020487E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D813C41C0079DF0020487E = {
+			isa = PBXGroup;
+			children = (
+				26D813CF1C0079DF0020487E /* EndiveMap */,
+				26D813E91C0079DF0020487E /* EndiveMapTests */,
+				26D813F41C0079DF0020487E /* EndiveMapUITests */,
+				26D813CE1C0079DF0020487E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D813CE1C0079DF0020487E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D813CD1C0079DF0020487E /* EndiveMap.app */,
+				26D813E61C0079DF0020487E /* EndiveMapTests.xctest */,
+				26D813F11C0079DF0020487E /* EndiveMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D813CF1C0079DF0020487E /* EndiveMap */ = {
+			isa = PBXGroup;
+			children = (
+				26D813D31C0079DF0020487E /* AppDelegate.h */,
+				26D813D41C0079DF0020487E /* AppDelegate.m */,
+				26D813D61C0079DF0020487E /* ViewController.h */,
+				26D813D71C0079DF0020487E /* ViewController.m */,
+				26D813D91C0079DF0020487E /* Main.storyboard */,
+				26D813DC1C0079DF0020487E /* Assets.xcassets */,
+				26D813DE1C0079DF0020487E /* LaunchScreen.storyboard */,
+				26D813E11C0079DF0020487E /* Info.plist */,
+				26D813D01C0079DF0020487E /* Supporting Files */,
+			);
+			path = EndiveMap;
+			sourceTree = "<group>";
+		};
+		26D813D01C0079DF0020487E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D813D11C0079DF0020487E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D813E91C0079DF0020487E /* EndiveMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D813EA1C0079DF0020487E /* EndiveMapTests.m */,
+				26D813EC1C0079DF0020487E /* Info.plist */,
+			);
+			path = EndiveMapTests;
+			sourceTree = "<group>";
+		};
+		26D813F41C0079DF0020487E /* EndiveMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26D813F51C0079DF0020487E /* EndiveMapUITests.m */,
+				26D813F71C0079DF0020487E /* Info.plist */,
+			);
+			path = EndiveMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D813CC1C0079DF0020487E /* EndiveMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D813FA1C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMap" */;
+			buildPhases = (
+				26D813C91C0079DF0020487E /* Sources */,
+				26D813CA1C0079DF0020487E /* Frameworks */,
+				26D813CB1C0079DF0020487E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EndiveMap;
+			productName = EndiveMap;
+			productReference = 26D813CD1C0079DF0020487E /* EndiveMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D813E51C0079DF0020487E /* EndiveMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D813FD1C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMapTests" */;
+			buildPhases = (
+				26D813E21C0079DF0020487E /* Sources */,
+				26D813E31C0079DF0020487E /* Frameworks */,
+				26D813E41C0079DF0020487E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D813E81C0079DF0020487E /* PBXTargetDependency */,
+			);
+			name = EndiveMapTests;
+			productName = EndiveMapTests;
+			productReference = 26D813E61C0079DF0020487E /* EndiveMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26D813F01C0079DF0020487E /* EndiveMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D814001C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMapUITests" */;
+			buildPhases = (
+				26D813ED1C0079DF0020487E /* Sources */,
+				26D813EE1C0079DF0020487E /* Frameworks */,
+				26D813EF1C0079DF0020487E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D813F31C0079DF0020487E /* PBXTargetDependency */,
+			);
+			name = EndiveMapUITests;
+			productName = EndiveMapUITests;
+			productReference = 26D813F11C0079DF0020487E /* EndiveMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D813C51C0079DF0020487E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vinod Kumar";
+				TargetAttributes = {
+					26D813CC1C0079DF0020487E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					26D813E51C0079DF0020487E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 26D813CC1C0079DF0020487E;
+					};
+					26D813F01C0079DF0020487E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 26D813CC1C0079DF0020487E;
+					};
+				};
+			};
+			buildConfigurationList = 26D813C81C0079DF0020487E /* Build configuration list for PBXProject "EndiveMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D813C41C0079DF0020487E;
+			productRefGroup = 26D813CE1C0079DF0020487E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D813CC1C0079DF0020487E /* EndiveMap */,
+				26D813E51C0079DF0020487E /* EndiveMapTests */,
+				26D813F01C0079DF0020487E /* EndiveMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D813CB1C0079DF0020487E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D813E01C0079DF0020487E /* LaunchScreen.storyboard in Resources */,
+				26D813DD1C0079DF0020487E /* Assets.xcassets in Resources */,
+				26D813DB1C0079DF0020487E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813E41C0079DF0020487E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813EF1C0079DF0020487E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D813C91C0079DF0020487E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D813D81C0079DF0020487E /* ViewController.m in Sources */,
+				26D813D51C0079DF0020487E /* AppDelegate.m in Sources */,
+				26D813D21C0079DF0020487E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813E21C0079DF0020487E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D813EB1C0079DF0020487E /* EndiveMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D813ED1C0079DF0020487E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D813F61C0079DF0020487E /* EndiveMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D813E81C0079DF0020487E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D813CC1C0079DF0020487E /* EndiveMap */;
+			targetProxy = 26D813E71C0079DF0020487E /* PBXContainerItemProxy */;
+		};
+		26D813F31C0079DF0020487E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D813CC1C0079DF0020487E /* EndiveMap */;
+			targetProxy = 26D813F21C0079DF0020487E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D813D91C0079DF0020487E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D813DA1C0079DF0020487E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D813DE1C0079DF0020487E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D813DF1C0079DF0020487E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D813F81C0079DF0020487E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26D813F91C0079DF0020487E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D813FB1C0079DF0020487E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EndiveMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26D813FC1C0079DF0020487E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EndiveMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26D813FE1C0079DF0020487E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EndiveMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndiveMap.app/EndiveMap";
+			};
+			name = Debug;
+		};
+		26D813FF1C0079DF0020487E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EndiveMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndiveMap.app/EndiveMap";
+			};
+			name = Release;
+		};
+		26D814011C0079DF0020487E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EndiveMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EndiveMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26D814021C0079DF0020487E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EndiveMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "endive-software.EndiveMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EndiveMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D813C81C0079DF0020487E /* Build configuration list for PBXProject "EndiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D813F81C0079DF0020487E /* Debug */,
+				26D813F91C0079DF0020487E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D813FA1C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D813FB1C0079DF0020487E /* Debug */,
+				26D813FC1C0079DF0020487E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D813FD1C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D813FE1C0079DF0020487E /* Debug */,
+				26D813FF1C0079DF0020487E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D814001C0079DF0020487E /* Build configuration list for PBXNativeTarget "EndiveMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D814011C0079DF0020487E /* Debug */,
+				26D814021C0079DF0020487E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D813C51C0079DF0020487E /* Project object */;
+}
